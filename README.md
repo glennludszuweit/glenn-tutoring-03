@@ -3,6 +3,7 @@
 
 1. Create program for a movie subscription, given the BasicPlan class bellow:
 
+<pre><code>
 class BasicPlan {
   constructor() {
     this.canStream = true;
@@ -14,6 +15,7 @@ class BasicPlan {
     this.price = '$8.99';
   }
 }
+</code></pre>
 
 2. extend the BasicPlan to include numOfDevices to 2, hasHD to true and price to $10.99 in StandardPlan
 
